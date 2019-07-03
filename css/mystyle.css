@@ -1,0 +1,146 @@
+*{
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+
+    margin: 0;
+    padding: 0;
+    
+    font-family: "微軟正黑體";
+    font-size: 14px;
+}
+
+.banner > .title p{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main > .s_title p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main > .item-group h2{
+    font-size: 16px;
+    color: black;
+}
+.main > .item-group p{
+    color: black;
+}
+
+footer{
+    width: 100%;
+}
+
+footer span{
+    font-size:small;
+    text-align: center;
+}
+
+div.banner{
+    position: relative;
+    height:40vh;
+    /* background-color: blueviolet; */
+    background-image: url(../img/photo/travel-cycling-mountain-vacation-lifestyle_1150-1017.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+div.main{
+    position: relative;
+    height:60vh;
+    /* background-color: brown; */
+    background-image: url(../img/background/free_texture_friday_1196-660x440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.logo{
+    position: absolute;
+    height:135px;
+    width: 135px;
+    border: 1px solid #999;
+    top: 5vh;
+    left: 5vw;
+    background-image: url(../img/icon/bicycle_white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.title{
+    position: absolute;
+    height:10vh;
+    width:20vw;
+    bottom: 5vh;
+    left: 5vw;
+}
+
+div.s_title{
+    float:right;
+    height:10vh;
+    width:15vw;
+    margin: 10px 10px 0 0;
+}
+
+div.s_title::after{
+    clear:both;
+}
+
+div.item-group{
+    position: absolute;
+    top: 15vh;
+}
+
+div.item{
+    width:20vw;
+    float:left;
+    margin: 0 6vw;
+    box-shadow: 5px 5px 10px #888888; 
+}
+
+#fig0,
+#fig1,
+#fig2{
+    width:100%;
+    height: 20vh;
+}
+
+#fig0{
+    background-image: url(../img/photo/bicycle-brakes-camera-158286.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vh ;
+}
+
+#fig1{
+    background-image: url(../img/photo/cyclist_1150-5884.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vh ;
+}
+
+#fig2{
+    background-image: url(../img/photo/male-cyclist-s-foot-bicycle-pedal-riding-bike-outdoors_23-2148038378.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vh ;
+}
+div.info{
+    background-color: #eee;
+}
+
+div.main-sub{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+div.style-1{
+    width: 100vw;
+    height: 100%;
+    background-color: darkcyan;
+    -webkit-clip-path:polygon(0% 0%, 0% 100%,100% 100%);
+    clip-path:polygon(0% 0%, 0% 100%,100% 100%);
+}
