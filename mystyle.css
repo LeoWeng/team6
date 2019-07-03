@@ -44,7 +44,7 @@ div.banner{
     position: relative;
     height:40vh;
     /* background-color: blueviolet; */
-    background-image: url(/img/photo/travel-cycling-mountain-vacation-lifestyle_1150-1017.jpg);
+    background-image: url(travel-cycling-mountain-vacation-lifestyle_1150-1017.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
@@ -55,7 +55,7 @@ div.main{
     position: relative;
     height:60vh;
     /* background-color: brown; */
-    background-image: url(/img/background/free_texture_friday_1196-660x440.jpg);
+    background-image: url(free_texture_friday_1196-660x440.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,7 +67,7 @@ div.logo{
     border: 1px solid #999;
     top: 5vh;
     left: 5vw;
-    background-image: url(/img/icon/bicycle_white.png);
+    background-image: url(bicycle_white.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,19 +111,19 @@ div.item{
 }
 
 #fig0{
-    background-image: url(/img/photo/bicycle-brakes-camera-158286.jpg);
+    background-image: url(bicycle-brakes-camera-158286.jpg);
     background-repeat: no-repeat;
     background-size: 20vw 20vh ;
 }
 
 #fig1{
-    background-image: url(/img/photo/cyclist_1150-5884.jpg);
+    background-image: url(cyclist_1150-5884.jpg);
     background-repeat: no-repeat;
     background-size: 20vw 20vh ;
 }
 
 #fig2{
-    background-image: url(/img/photo/male-cyclist-s-foot-bicycle-pedal-riding-bike-outdoors_23-2148038378.jpg);
+    background-image: url(male-cyclist-s-foot-bicycle-pedal-riding-bike-outdoors_23-2148038378.jpg);
     background-repeat: no-repeat;
     background-size: 20vw 20vh ;
 }
